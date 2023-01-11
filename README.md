@@ -1,4 +1,4 @@
-# Code for the ICML 2023 submission - 'FPDM: A Fast Pre-training Technique using Document-Level Metadata'
+# Code for the ICML 2023 submission - 'FPDM: Domain-Specific Fast Pre-training Technique using Document-Level Metadata'
 
 ## Required dependencies
 
@@ -32,19 +32,20 @@ Please run `pip install -r requirements.txt` (`python3` required). For fine-tuni
 ## Links to the models pre-trained in the Scientific Domain
 
 - Our Proposed Variants
-1. [<em>FPDM<sub>SciBERT</sub></em>](https://huggingface.co/AnonymousSub/fpdm_models_scibert_hybrid_epochs_4)
-2. [<em>FPDM<sub>SciBERT</sub> (hier.)</em>](https://huggingface.co/AnonymousSub/SCIENTIFIC_fpdm_models_hier_scibert_epochs_4)
-3. [<em>FPDM<sub>SciBERT</sub> (triplet)</em>](https://huggingface.co/AnonymousSub/SCIENTIFIC_fpdm_models_triplet_scibert_hybrid_epochs_4)
+1. [<em>FPDM(Sci.)<sub>BERT</sub></em>](https://huggingface.co/AnonymousSub/Scientific_FPDM_PRIM_CAT_BERT_HYBRID_epochs_1)
+2. [<em>FPDM(Sci.)<sub>BERT</sub> (hier.)</em>](https://huggingface.co/AnonymousSub/Scientific_FPDM_PRIM_CAT_HIER_BERT_HYBRID_epochs_1)
+3. [<em>FPDM(Sci.)<sub>BERT</sub> (triplet)</em>](https://huggingface.co/AnonymousSub/Scientific_FPDM_PRIM_CAT_TRIPLET_BERT_HYBRID_epochs_1)
 
-- Baselines
+- Baseline
 
-1. [SciBERT](https://huggingface.co/allenai/scibert_scivocab_uncased)
+1. SciBERT - Refer to https://github.com/allenai/scibert
+<!---
 2. [SPECTER](https://huggingface.co/allenai/specter)
 3. [SciNCL](https://huggingface.co/malteos/scincl)
 4. [BioMedRoBERTa](https://huggingface.co/allenai/biomed_roberta_base)
 5. [RoBERTa<sub>BASE</sub>](https://huggingface.co/roberta-base)
 6. [RoBERTa<sub>LARGE</sub>](https://huggingface.co/roberta-large)
-
+-->
 ## Fine-tuning on SQuAD 2.0
 
 - To download the training set, run `wget https://rajpurkar.github.io/SQuAD-explorer/dataset/train-v2.0.json`.
